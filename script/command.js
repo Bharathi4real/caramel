@@ -35,7 +35,7 @@ export const data ={
     "definition":[
       {
         "pattern": "(what's dbms|dbms|what's the database|definition of dbms)",
-        "reply":"DBMS stands for Database Management System, and it is a software system that allows users to define, create, manage, and access databases. A database is a collection of data that is organized in a specific way to facilitate easy access and management of the data.A DBMS provides a means to store, organize, retrieve, and manipulate data in a database.",
+        "reply":"DBMS stands for Database Management System,\n and it is a software system that allows users to define, create, manage, and access databases. A database is a collection of data that is organized in a specific way to facilitate easy access and management of the data.A DBMS provides a means to store, organize, retrieve, and manipulate data in a database.",
         "image":"dbms.jpeg"
         
       },
