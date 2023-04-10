@@ -9,4 +9,4 @@ This folder contains .js files only to make importing th easier
 
 3. faq.js
 
-4. commands.ja
+4. command.js
