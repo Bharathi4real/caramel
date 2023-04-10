@@ -1,6 +1,6 @@
 # chatbotpro
 
-has 2 branches main and ttext-only
+has 2 branches main and text-only
 
 main branch has image reply function (early-testing)
 
