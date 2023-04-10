@@ -2,7 +2,7 @@ export const data ={
     "intents": [
       {
         "tag": "greeting",
-        "pattern": "(hi|hello|hey)",
+        "pattern": "(hi|hello|hey|howdy|good morning|good afternoon|good evening|good night|good day|good evening|good afternoon|good morning)",
         "responses": [
           "Hello! How can I assist you today?",
           "Hey there, how can I help?",
@@ -11,7 +11,7 @@ export const data ={
       },
       {
         "tag": "goodbye",
-        "pattern": "(bye|goodbye)",
+        "pattern": "(bye|goodbye|see you later|see ya|cya|talk to you later|ttyl|till later|till then|till next time)",
         "responses": [
           "Goodbye!",
           "Have a great day!",
@@ -19,18 +19,18 @@ export const data ={
         ]
       },
       {
-        "tag": "weather",
-        "pattern": "(what's the weather like|how's the weather|what's the temperature|what's it like outside)",
+        "tag": "thanks",
+        "pattern": "(thanks|thank you|thank you so much|thanks a lot|thanks for that|thanks for your help|thannks for your time|thanks for your time)",
         "responses": [
-          "I'm not sure, would you like me to check for you?",
-          "It's currently 72 degrees and sunny.",
-          "I'm sorry, I don't have access to weather information."
+          "You're welcome!",
+          "No problem!",
+          "Happy to help!"
         ]
       }
     ],
     "defaultResponses":[
-      "I'm not sure about this.",
-      "say something else bro"
+      "I'm sorry, I don't understand.",
+      "I'm sorry, I don't have an answer for that."
     ],
     "definition":[
       {
