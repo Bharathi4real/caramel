@@ -36,7 +36,7 @@ export const data ={
       {
         "pattern": "(what is data structures|ds|define ds|what is data structures?|data structures|define data structures| define data structure|data structure|data structure?|what is data structure|define data structure)",
         "reply":"Data structures are ways of organizing and storing data in a computer program or system. They provide a way to efficiently manage and manipulate large amounts of data, allowing for faster access and processing of information. Common examples of data structures include arrays, linked lists, stacks, queues, trees, and graphs.Each type of data structure has its own set of operations that can be performed on it, such as adding, removing, or accessing elements. The choice of data structure often depends on the specific requirements of a program or algorithm, as well as the characteristics of the data being stored. Efficient use of data structures is critical for creating high-performance software systems that can handle large volumes of data efficiently.",
-        "image":"dbms.jpeg"
+        "image":"datastructures.png"
         
       },
       {
