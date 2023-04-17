@@ -41,8 +41,9 @@
       overflow-wrap: break-word;
       padding:20px;border-radius: 10px;
       display: grid;
-      grid-template-rows: 60% 40%;
+      grid-auto-rows: max-content;
   }
+  
   #timg{
     display: flex;
     justify-content: center;
@@ -368,7 +369,7 @@
           width:45%;
           font-family: sans-serif;
           font-size: 18px;
-          height:auto;margin-left: 10px;
+          height:max-content;margin-left: 10px;
           overflow-wrap: break-word;
           padding:27px;border-radius: 10px;
           
@@ -378,11 +379,11 @@
         width:45%;
         font-family: sans-serif;
         font-size: 18px;
-        height:70%;margin-left: 10px;
+        height:max-content;margin-left: 10px;
         overflow-wrap: break-word;
         padding:27px;border-radius: 10px;
           display: grid;
-          grid-template-rows: 50% 50%;
+          grid-auto-rows: max-content;
       }
       #timg{
         display: flex;

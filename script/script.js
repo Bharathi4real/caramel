@@ -48,7 +48,6 @@ function Reply(command) {
         break;
       }
     }
-
     // If no intent match is found, return the default response
     for(var def in data.definition){
       const pattern = new RegExp(data.definition[def].pattern, "i");
@@ -67,7 +66,6 @@ function Reply(command) {
     if (response === "") {
       response = data.defaultResponses[Math.floor(Math.random() * data.defaultResponses.length)];
     }
-
     // Handle special commands
     if (command.slice(0, 6) === "execute") {
       const code = command.slice(8);
