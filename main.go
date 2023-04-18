@@ -9,7 +9,7 @@ import (
 
 func Handler() http.Handler {
 	r := gin.Default()
-	r.Static("/", "./")
+	r.Static("/", "")
 	return r
 }
 
