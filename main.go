@@ -1,16 +1,30 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
-
 	"os"
 
 	"github.com/gin-gonic/gin"
 )
 
-func main() {
+func Handler() http.Handler {
 	r := gin.Default()
-	r.Static("/", "./")
+	r.Static("/", "")
+	return r
+}
 
-	http.ListenAndServe(":"+os.Getenv("PORT"), r)
+func main() {
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+
+	addr := ":" + port
+	if port == "8080" {
+		addr = "localhost" + addr
+		fmt.Println("Listening on", addr)
+	}
+
+	http.ListenAndServe(addr, Handler())
 }
