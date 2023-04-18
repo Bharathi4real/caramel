@@ -1,4 +1,4 @@
-module chatbotpro
+module caramel
 
 go 1.20
 
