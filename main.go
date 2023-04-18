@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gin-gonic/gin" // gin framework
+	"github.com/gin-gonic/gin"
 )
 
 // Handler function to return gin engine
@@ -17,16 +17,16 @@ func Handler() http.Handler {
 
 // server start function
 func startServer(addr string, handler http.Handler) {
-	log.Printf("\n\n Serever Running on %s \n\n", addr) // log to print the server address
+	log.Printf("\n\n Serever Running on %s \n\n", addr) 
 	err := http.ListenAndServe(addr, Handler())
 	if err != nil {
-		log.Fatalf("Error Starting Sever on %v, Error: %v", addr, err) // log fatal to exit the program
+		log.Fatalf("Error Starting Sever on %v, Error: %v", addr, err) /
 	}
 }
 
 // main func to start server
 func main() {
-	port := os.Getenv("PORT") // fetch port from env variable
+	port := os.Getenv("PORT") /
 	if port == "" {
 		port = "8080"
 	}
