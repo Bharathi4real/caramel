@@ -20,7 +20,7 @@ func startServer(addr string, handler http.Handler) {
 	log.Printf("\n\n Serever Running on %s \n\n", addr) 
 	err := http.ListenAndServe(addr, Handler())
 	if err != nil {
-		log.Fatalf("Error Starting Sever on %v, Error: %v", addr, err) /
+		log.Fatalf("Error Starting Sever on %v, Error: %v", addr, err)
 	}
 }
 
