@@ -36,6 +36,3 @@ Version 3](LICENSE).
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_badge.svg)](https://repography.com)
 [![Timeline graph](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_timeline.svg)](https://github.com/Bharathi4real/caramel/commits)
 [![Issue status graph](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_issues.svg)](https://github.com/Bharathi4real/caramel/issues)
-[![Trending topics](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_words.svg)](https://github.com/Bharathi4real/caramel/commits)
-[![Top contributors](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_users.svg)](https://github.com/Bharathi4real/caramel/graphs/contributors)
-
