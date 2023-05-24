@@ -2,37 +2,37 @@
 
 [![Live Preview](https://img.shields.io/badge/Live%20Preview-%E2%9C%A8-blue)](https://caramel-chat.vercel.app/)
 
-Caramel is a chatbot web application with text and image reply functions. It has two branches: main and text-only. The main branch has an image reply function that is still in early testing, while the text-only branch contains a more stable text reply function.
-
+Caramel is a simple chatbot web application with text and image reply functions using regex patterns. It provides an interactive interface where users can engage in conversations with the chatbot.
 
 ## Getting Started
 
-To run ChatBotPro locally, follow these steps:
+To run Caramel locally, follow these steps:
 
-1. Install Go lang by following the [instructions](https://go.dev/doc/install).
-2. Clone the caramel repository using the command `git clone https://github.com/bharathi4real/caramel.git`.
+1. Install Go lang by following the [instructions](https://go.dev/doc/install). Go is a programming language used to build Caramel.
+2. Clone the Caramel repository by running the command `git clone https://github.com/bharathi4real/caramel.git` in your command line interface.
 3. Navigate to the repository folder using the command `cd caramel`.
-4. Run the server using the command `go run main.go`.
-5. The server will be started on `localhost:8080` by default.
+4. Start the server by running the command `go run main.go`.
+5. The server will be started on `localhost:8080` by default, and you can access Caramel in your web browser at that address.
 
 ## Technologies Used
 
-- Go
-- Gin web framework
-- HTML/CSS/JS
+Caramel is built using the following technologies:
+
+- Go: Go is a statically-typed programming language known for its efficiency and scalability. It is used as the main language for building Caramel.
+- Gin web framework: Gin is a web framework for Go that provides a set of features and utilities to simplify web application development. It is used in Caramel to handle routing and request handling.
+- HTML/CSS/JS: Caramel uses HTML, CSS, and JavaScript for the front-end development to create the user interface and handle client-side interactions.
 
 ## Contributing
 
-Contributions to caramel are always welcome! Please check out the [contributing guidelines](CONTRIBUTING.md) for more information.
+Contributions to Caramel are always welcome! If you're interested in contributing to the project, please check out the [contributing guidelines](CONTRIBUTING.md) for more information on how to get started.
 
 ## License
 
-This project is licensed under the [GNU GENERAL PUBLIC LICENSE
-Version 3](LICENSE).
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE), which is an open-source license that allows you to use, modify, and distribute the software.
 
+## Recent Activity
 
+You can view the recent activity and changes in the Caramel repository through the following links:
 
-
-## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_badge.svg)](https://repography.com)
-[![Timeline graph](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_timeline.svg)](https://github.com/Bharathi4real/caramel/commits)
-[![Issue status graph](https://images.repography.com/36738508/Bharathi4real/caramel/recent-activity/lJaTBixfuq0IS_rDjk2KBYFqAiRiLXdvdSfjj2TYcNs/h-O9tEDpEgNBpMFE7_QdkGBlQEB41zMlkBTIhY19duE_issues.svg)](https://github.com/Bharathi4real/caramel/issues)
+- [Timeline Graph](https://github.com/Bharathi4real/caramel/commits): This graph displays the timeline of commits made to the repository, allowing you to track the development progress.
+- [Issue Status Graph](https://github.com/Bharathi4real/caramel/issues): This graph provides an overview of the current status of issues reported in the repository, helping you understand the ongoing discussions and bug fixes.
