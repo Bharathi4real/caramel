@@ -1,6 +1,6 @@
 import da from './command.js';
 
-import { datt, timee } from './modules/date.js';
+import { date, time } from './modules/date.js';
 
 const data = da;
 
